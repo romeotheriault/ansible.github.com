@@ -25,7 +25,6 @@ Example action from Ansible :doc:`playbooks`::
 
     copy src=/srv/myfiles/foo.conf dest=/etc/foo.conf owner=foo group=foo mode=0644
 
-Copy a new ntp.conf file into place, backing up the original if it differs from the copied version.
+Copy a new ntp.conf file into place, backing up the original if it differs from the copied version::
 
     copy src=/srv/myfiles/ntp.conf dest=/etc/ntp.conf owner=root group=root mode=644 backup=yes 
-
